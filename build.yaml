@@ -19,11 +19,11 @@
 #
 ---
 include:
-  # Sofle left and right halves
-  - board: nice_nano_v2
-    shield: sofle_left
-  - board: nice_nano_v2
-    shield: sofle_right
+  # # Sofle left and right halves
+  # - board: nice_nano_v2
+  #   shield: sofle_left
+  # - board: nice_nano_v2
+  #   shield: sofle_right
 
   # Dongle setup
   - board: nice_nano_v2
@@ -33,5 +33,8 @@ include:
 
   # Add these cmake-args to the peripherals you wish to use with the dongle
   - board: nice_nano_v2
-    shield: sofle
+    shield: sofle_left
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: nice_nano_v2
+    shield: sofle_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
