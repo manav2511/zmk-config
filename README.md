@@ -3,4 +3,5 @@
 - Tested with **SuperMini nRF52840 Pro Micro**, also compatible with **nice!nano v2**.  
 - Always pair the **left side first**, followed by the **right side**.
 
-  ![Uploading IMG_20241231_203754384.jpg…]()
+
+![Uploading IMG_20241231_203754384.jpg…]()
