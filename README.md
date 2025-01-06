@@ -4,4 +4,4 @@
 - Always pair the **left side first**, followed by the **right side**.
 
 
-![Uploading IMG_20241231_203754384.jpg…]()
+![IMG_20241231_203754384](https://github.com/user-attachments/assets/3977727f-f988-4ef1-b40c-166a10dd19d0)
